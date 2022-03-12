@@ -1,0 +1,13 @@
+.navbar{
+    background-color: rgb(255, 255, 255) !important;
+}
+.navbar-brand{
+    color: #3252D0 !important;
+    font-size: xx-large !important;
+}
+.nav-link{
+    color: #6D7B93 !important;
+}
+.nav-link:hover{
+    color: #3252D0 !important;
+}
