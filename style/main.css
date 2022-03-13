@@ -1,5 +1,27 @@
+h1,h2{
+    color: #1F3E72;
+    font-weight:700 !important;
+}
+dt{
+    font-weight:400 !important;
+}
+dd{
+    font-weight: 600 !important;
+    color: #274577;
+}
+footer{
+    background-color: rgba(238, 243, 255,0.5);
+    margin-top: 10%;
+    padding: 1%;
+    margin-bottom: -10%;
+
+}
+header{
+    margin-bottom: 100px;
+}
 .navbar{
-    background-color: rgb(255, 255, 255) !important;
+    background-color: rgb(255, 255, 255,0.9) !important;
+    backdrop-filter: blur(1px);
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
 }
 .navbar-brand{
@@ -13,9 +35,6 @@
 .nav-link:hover{
     color: #3252D0 !important;
 }
-h1{
-    color: #1F3E72;
-}
 .icon1{
     color: #FFD012;
 }
@@ -25,12 +44,14 @@ h1{
 .icon3{
     color: #3454D2;
 }
+.icon4{
+    border-radius: 5px;
+    color: #2C4CCA;
+    background-color: rgba(235, 242, 254,0.4);
+    padding: 2%;
+}
 .text{
     color: #6D7B93;
-    font-weight: 500;
-}
-.article1{
-    color: #1F3E72;
     font-weight: 500;
 }
 .text1{
@@ -42,13 +63,6 @@ h1{
     background-color: rgba(215, 215, 215, 0.2);
     max-width: 98.5%!important;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-}
-dt{
-    font-weight:400 !important;
-}
-dd{
-    font-weight: 600 !important;
-    color: #274577;
 }
 .logos{
     width: 80%;
@@ -85,4 +99,41 @@ dd{
     background: linear-gradient(180deg, #FFFFFF 28%, #2675DE 28%);
     background-color: #2675DE;
 }
-
+.accordionTitle{
+    color: #1F3E72 !important;
+    font-weight: 600 !important;
+    font-size:medium !important;
+}
+.accordion-body{
+    text-align:left;
+    margin-left: 6.5%;
+    color: #6D7B93;
+    font-weight: 400;
+    font-size: medium;
+}
+.contactText{
+    margin-left: 21%;
+}
+.contactNav{
+    color: #3252D0;
+    margin-left: 21%;
+    cursor: pointer;
+}
+.footerTitle{
+    color: #3858D6;
+}
+.footerTitle1{
+    color: #1F3E72;
+}
+.mr-auto{
+    margin-right: auto;
+}
+.btn{
+    box-shadow: 0 6px 12px rgba(0,0,0,.08), 0 0 8px rgba(0,0,0,.05);
+}
+.modalDeveloper{
+    text-decoration: none;
+}
+.modalDeveloper:hover{
+    color: #2675DE;
+}
